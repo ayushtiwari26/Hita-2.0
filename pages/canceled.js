@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import Link from 'next/link'
 import {HiOutlineEmojiSad} from 'react-icons/hi'
 import { useStateContext } from '../context/StateContext'
-import { runFireworks } from '../lib/utils'
+//import { runFireworks } from '../lib/utils'
 const cancel = () => {
     const {setCartItems, setTotalPrice, setTotalQuantities} = useStateContext()
     // useEffect(()=>{
